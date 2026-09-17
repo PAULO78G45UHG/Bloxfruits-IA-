@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blox Fruits - Você Decide IA</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="game-container">
+        <header>
+            <div class="logo">
+                <span class="badge">SEA DECISION</span>
+                <h1>BLOX FRUITS</h1>
+                <p class="subtitle">Qual caminho pirata você vai escolher?</p>
+            </div>
+        </header>
+
+        <main>
+            <div class="bounty-card">
+                <div class="card-header">
+                    <span id="question-number">PERGUNTA #1</span>
+                    <span class="bounty-val">reward: ฿ 1,000,000</span>
+                </div>
+                
+                <h2 id="question-text">Carregando desafio dos mares...</h2>
+
+                <div class="options-container" id="options-container">
+                    <!-- Opções geradas via JS -->
+                </div>
+
+                <div class="ia-response" id="ia-response">
+                    <div class="ia-avatar">🏴‍☠️</div>
+                    <div class="ia-speech">
+                        <h4>Mestre dos Mares diz:</h4>
+                        <p id="ia-text">Selecione uma opção acima para revelar seu destino pirata!</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <button id="next-btn" class="pirate-btn">Próxima Jornada ➔</button>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
